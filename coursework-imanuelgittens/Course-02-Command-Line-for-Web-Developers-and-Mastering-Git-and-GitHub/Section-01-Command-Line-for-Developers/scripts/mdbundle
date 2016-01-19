@@ -1,0 +1,6 @@
+echo Combining Files
+
+cat $2 > $1
+
+echo Done
+

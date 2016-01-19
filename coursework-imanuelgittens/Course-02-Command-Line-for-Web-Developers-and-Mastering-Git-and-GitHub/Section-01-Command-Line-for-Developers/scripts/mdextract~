@@ -1,0 +1,5 @@
+echo Expanding ./backups/backup2.tar into ./backuptest
+mkdir -p $2
+tar -xf $1 
+echo Done
+

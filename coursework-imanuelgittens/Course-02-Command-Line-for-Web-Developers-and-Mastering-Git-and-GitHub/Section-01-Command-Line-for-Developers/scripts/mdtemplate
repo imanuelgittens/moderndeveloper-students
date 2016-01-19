@@ -1,0 +1,15 @@
+echo Creating Web Project Directory
+
+mkdir -p $1
+mkdir -p $1/css
+mkdir -p $1/images
+mkdir -p $1/js
+
+touch $1/css/style.css
+touch $1/js/main.js
+
+echo "<html><head></head><body><h1>$2</h1></body></html>" > $1/index.html
+echo "h1 {font-color: blue;}" > $1/css/style.css
+
+echo Done
+
